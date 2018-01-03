@@ -11,6 +11,8 @@
 		E60963B11FFCBC4A00ECB423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60963B01FFCBC4A00ECB423 /* ViewController.swift */; };
 		E60963B31FFCBC4A00ECB423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60963B21FFCBC4A00ECB423 /* Assets.xcassets */; };
 		E60963B61FFCBC4A00ECB423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60963B41FFCBC4A00ECB423 /* Main.storyboard */; };
+		E60963BF1FFCBCBD00ECB423 /* BTCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60963BE1FFCBCBD00ECB423 /* BTCentral.swift */; };
+		E60963C11FFCBCE500ECB423 /* BluetoothInfoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60963C01FFCBCE500ECB423 /* BluetoothInfoDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		E60963B51FFCBC4A00ECB423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E60963B71FFCBC4A00ECB423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E60963B81FFCBC4A00ECB423 /* BluetoothGateway.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BluetoothGateway.entitlements; sourceTree = "<group>"; };
+		E60963BE1FFCBCBD00ECB423 /* BTCentral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCentral.swift; sourceTree = "<group>"; };
+		E60963C01FFCBCE500ECB423 /* BluetoothInfoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothInfoDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				E60963B41FFCBC4A00ECB423 /* Main.storyboard */,
 				E60963B71FFCBC4A00ECB423 /* Info.plist */,
 				E60963B81FFCBC4A00ECB423 /* BluetoothGateway.entitlements */,
+				E60963BE1FFCBCBD00ECB423 /* BTCentral.swift */,
+				E60963C01FFCBCE500ECB423 /* BluetoothInfoDelegate.swift */,
 			);
 			path = BluetoothGateway;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			files = (
 				E60963B11FFCBC4A00ECB423 /* ViewController.swift in Sources */,
 				E60963AF1FFCBC4A00ECB423 /* AppDelegate.swift in Sources */,
+				E60963BF1FFCBCBD00ECB423 /* BTCentral.swift in Sources */,
+				E60963C11FFCBCE500ECB423 /* BluetoothInfoDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
